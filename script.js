@@ -1,15 +1,15 @@
 // Productos con una propiedad de valoraciones
 const productos = [
-    { nombre: "Camiseta Ecológica", precio: 35000, imagen: "imagenes/camiseta-ecologica.png", categoria: "ropa", valoraciones: [] },
-    { nombre: "Pantalón Eco-Friendly", precio: 45000, imagen: "imagenes/pantalon-eco-friendly.png", categoria: "ropa", valoraciones: [] },
-    { nombre: "Chaqueta Reciclada", precio: 75000, imagen: "imagenes/chaqueta-reciclada.png", categoria: "ropa", valoraciones: [] },
-    { nombre: "Sudadera Vegana", precio: 50000, imagen: "imagenes/sudadera-vegana.png", categoria: "ropa", valoraciones: [] },
-    { nombre: "Zapatos de Cuero Vegetal", precio: 120000, imagen: "imagenes/zapatos-cuero-vegetal.png", categoria: "accesorios", valoraciones: [] },
-    { nombre: "Sombrero de Paja Orgánica", precio: 35000, imagen: "imagenes/sombrero-paja-organica.png", categoria: "accesorios", valoraciones: [] },
-    { nombre: "Bolsos de Tela Reciclada", precio: 45000, imagen: "imagenes/bolsos-tela-reciclada.png", categoria: "accesorios", valoraciones: [] },
-    { nombre: "Pantalones Cortos de Bambú", precio: 30000, imagen: "imagenes/pantalones-cortos-bambu.png", categoria: "ropa", valoraciones: [] },
-    { nombre: "Cinturón de Cáñamo", precio: 25000, imagen: "imagenes/cinturon-canamo.png", categoria: "accesorios", valoraciones: [] },
-    { nombre: "Bufanda de Lana Orgánica", precio: 20000, imagen: "imagenes/bufanda-lana-organica.png", categoria: "ropa", valoraciones: [] }
+    { nombre: "Camiseta Ecológica", precio: 35000, imagen: "camiseta-ecologica.png", categoria: "ropa", valoraciones: [] },
+    { nombre: "Pantalón Eco-Friendly", precio: 45000, imagen: "pantalon-eco-friendly.png", categoria: "ropa", valoraciones: [] },
+    { nombre: "Chaqueta Reciclada", precio: 75000, imagen: "chaqueta-reciclada.png", categoria: "ropa", valoraciones: [] },
+    { nombre: "Sudadera Vegana", precio: 50000, imagen: "sudadera-vegana.png", categoria: "ropa", valoraciones: [] },
+    { nombre: "Zapatos de Cuero Vegetal", precio: 120000, imagen: "zapatos-cuero-vegetal.png", categoria: "accesorios", valoraciones: [] },
+    { nombre: "Sombrero de Paja Orgánica", precio: 35000, imagen: "sombrero-paja-organica.png", categoria: "accesorios", valoraciones: [] },
+    { nombre: "Bolsos de Tela Reciclada", precio: 45000, imagen: "bolsos-tela-reciclada.png", categoria: "accesorios", valoraciones: [] },
+    { nombre: "Pantalones Cortos de Bambú", precio: 30000, imagen: "pantalones-cortos-bambu.png", categoria: "ropa", valoraciones: [] },
+    { nombre: "Cinturón de Cáñamo", precio: 25000, imagen: "cinturon-canamo.png", categoria: "accesorios", valoraciones: [] },
+    { nombre: "Bufanda de Lana Orgánica", precio: 20000, imagen: "bufanda-lana-organica.png", categoria: "ropa", valoraciones: [] }
 ];
 
 // Carrito de compras
