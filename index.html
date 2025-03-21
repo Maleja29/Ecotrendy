@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTrendy - Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Barra de navegación -->
+<nav>
+    <ul>
+        <li><a href="#bienvenida">Bienvenida</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#mision-vision">Misión y Visión</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <!-- Aquí agregamos el carrito con el contador -->
+        <li><a href="#carrito">Carrito (<span id="contador-carrito">0</span> productos)</a></li>
+    </ul>
+</nav>
+
+    <!-- Sección Bienvenida -->
+    <section id="bienvenida">
+        <h1>Bienvenidos a EcoTrendy</h1>
+        <p>Bienvenido a EcoTrendy, la tienda online que ofrece productos ecológicos y sostenibles. ¡Aquí podrás encontrar la mejor ropa y accesorios para cuidar el planeta!</p>
+    </section>
+
+    <!-- Sección Productos -->
+<section id="productos">
+    <h2>Productos</h2>
+    <!-- Agrega esto justo antes del filtro de categoría en la sección productos -->
+<input type="text" id="busqueda" placeholder="Buscar producto..." oninput="buscarProductos()">
+
+    
+    <!-- Filtro de categoría, movido a la parte superior -->
+    <label for="categoria">Filtrar por categoría: </label>
+    <select id="categoria" onchange="filtrarProductos()">
+        <option value="todos">Todos</option>
+        <option value="ropa">Ropa</option>
+        <option value="accesorios">Accesorios</option>
+    </select>
+
+    <!-- Contenedor de productos -->
+    <div id="productos-lista"></div>
+</section>
+
+
+    <!-- Sección Misión y Visión -->
+    <section id="mision-vision">
+        <h2>Misión y Visión</h2>
+        <h3>Misión</h3>
+        <p>En EcoTrendy, nuestra misión es ofrecer productos ecológicos y sostenibles que contribuyan a la protección del medio ambiente. Nos dedicamos a ofrecer productos de alta calidad, fabricados con materiales reciclados y orgánicos para promover un estilo de vida responsable y consciente.</p>
+        
+        <h3>Visión</h3>
+        <p>Ser una tienda online líder en productos ecológicos, siendo reconocidos por nuestra innovación, calidad y compromiso con el cuidado del medio ambiente. Queremos hacer la diferencia ayudando a nuestros clientes a elegir productos que respeten el planeta y mejoren su calidad de vida.</p>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¡Contáctanos! Estamos disponibles para ayudarte con cualquier pregunta o duda que tengas.</p>
+        <ul>
+            <li>Nombre: María Alejandra Cárdenas</li>
+            <li>Email: amycardenas2923@gmail.com</li>
+            <li>Teléfono: 3229115636</li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+
+    <!-- Carrito de Compras -->
+<section id="carrito">
+    <h2>Carrito de Compras</h2>
+    <div id="carrito-lista"></div>
+</section>
+<!-- Sección de Pago -->
+<section id="pago">
+    <h2>Proceder al Pago</h2>
+    <form id="form-pago">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="direccion">Dirección de Envío:</label>
+        <input type="text" id="direccion" name="direccion" required><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+
+        <label for="medioPago">Método de Pago:</label>
+        <select id="medioPago" name="medioPago">
+            <option value="tarjeta_debito">Tarjeta de Débito</option>
+            <option value="tarjeta_credito">Tarjeta de Crédito</option>
+        </select><br><br>
+
+        <button type="button" onclick="procesarPago()">Pagar</button>
+    </form>
+</section>
+<!-- Sección Testimonios -->
+<section id="testimonios">
+    <h2>Testimonios</h2>
+    <div>
+        <p>"EcoTrendy tiene productos maravillosos. Me encanta cómo cuidan el planeta mientras me permiten estar a la moda." - Ana María</p>
+        <p>"La camiseta ecológica es tan cómoda y de buena calidad. ¡Recomiendo esta tienda al 100%!" - Juan Pérez</p>
+    </div>
+</section>
+<div>
+    <span>⭐</span>
+    <span>⭐</span>
+    <span>⭐</span>
+    <span>⭐</span>
+    <span>⭐</span>
+</div>
+
+</body>
+</html>
