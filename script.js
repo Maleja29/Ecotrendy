@@ -1,6 +1,6 @@
 // Productos con una propiedad de valoraciones
 const productos = [
-    { nombre: "Camiseta Ecológica", precio: 35000, imagen: "camiseta-ecologica.png", categoria: "ropa", valoraciones: [] },
+    { nombre: "Camiseta Ecológica", precio: 35000, imagen: "camisetaecologicapng", categoria: "ropa", valoraciones: [] },
     { nombre: "Pantalón Eco-Friendly", precio: 45000, imagen: "pantalon-eco-friendly.png", categoria: "ropa", valoraciones: [] },
     { nombre: "Chaqueta Reciclada", precio: 75000, imagen: "chaqueta-reciclada.png", categoria: "ropa", valoraciones: [] },
     { nombre: "Sudadera Vegana", precio: 50000, imagen: "sudadera-vegana.png", categoria: "ropa", valoraciones: [] },
